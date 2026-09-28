@@ -34,10 +34,17 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'awesomesauceproject1.App'
+    mainClass = 'awesomesauceproject1.Main'
+    applicationName = 'awesomesauceBatFile'
 }
 
 tasks.named('test') {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
+}
+
+tasks.startScripts {
+    doLast {
+        windowsScript.text = windowsScript.text.replace(':omega', 'pause\r\n:omega')
+    }
 }

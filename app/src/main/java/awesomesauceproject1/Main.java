@@ -1,4 +1,4 @@
-package app.src.main.java.awesomesauceproject1;
+package awesomesauceproject1;
 
 /**
  * hello hacker guys
