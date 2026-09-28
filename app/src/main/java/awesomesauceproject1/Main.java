@@ -1,3 +1,5 @@
+package app.src.main.java.awesomesauceproject1;
+
 public class Main {
     private static int variable1 = 1;
     private static int incrementAmount = 1;
